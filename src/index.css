@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex; 
+  justify-content: center;
 }
 
 a {
@@ -45,6 +47,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  display: flex; 
+  justify-content: center;
 }
 button:hover {
   border-color: #646cff;
